@@ -18,6 +18,15 @@ The primary sources of Data used here is Data Sale .csv and this is an open sour
     - For Data Cleaning
        1. Data Manipulation
        2. Data Munching
+          
 - QL Server ( For querrying and analysis)
 - Power Bi (For creating a report)
-- Ms power point ( for presentatin)
+- Ms power point ( for presentation)
+  
+### Data Cleaning and preparation
+
+In the initial phase of the Data cleaning and preparation, we perform the following 
+action;
+1. Data loading and Ispection
+2. Handling missing variables
+3. Data Cleaning and formating
