@@ -20,13 +20,23 @@ The primary sources of Data used here is Data Sale .csv and this is an open sour
        2. Data Munching
           
 - QL Server ( For querrying and analysis)
-- Power Bi (For creating a report)
+- Power Bi [Download]([For creating a report](https://www.microsoft.com/en-us/download/details.aspx?id=58494))
 - Ms power point ( for presentation)
   
 ### Data Cleaning and preparation
-
 In the initial phase of the Data cleaning and preparation, we perform the following 
 action;
 1. Data loading and Ispection
 2. Handling missing variables
 3. Data Cleaning and formating
+
+### Exploratory Data Analysis
+EDA involved in the exploring of the data to answer some questions about the Data such as;
+- What is the overall sales trend
+- Which product are top sellers
+- What are the products on peak sales?
+
+### Data Analysis
+
+This is where we include some basic lines of code or queries or even some of the DAX
+expression used during your analysis
