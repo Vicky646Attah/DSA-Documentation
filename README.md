@@ -6,8 +6,8 @@
 
  ##  Project Topic: E commerce Sales Analysis
 
- ###  Project Overview
- ## the Data Analysis project aims to generate insight into the sales performance of the E commerce project over the past year. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
+ ##  Project Overview
+ ### the Data Analysis project aims to generate insight into the sales performance of the E commerce project over the past year. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
  
 ### Data Sources
 The primary sources of Data used here is Data Sale .csv and this is an open source data that can be freely downloadedfrom an open source online such as kaggle or FRED or any other data repository site.
