@@ -10,7 +10,7 @@
  ### the Data Analysis project aims to generate insight into the product performance and customer review for E-commerce analytic solutions that can guide product improvement, marketing strategies, and customer engagement. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
  
 ### Data Sources
-The primary sources of Data used here is Data Amazon case study.xlsx and this downloaded from my dashboard on Canvas LMS
+The primary sources of Data used here is Data Amazon case study.xlsx file and this is downloaded from my dashboard on Canvas LMS
 
 ### Tools used
 - Ms Excel for Data Cleaning  [Download Here](https://www.microsoft.com)
@@ -27,6 +27,8 @@ action;
 1. Data loading and Ispection
 2. Handling missing variables
 3. Data Cleaning and formating
+-Steps Followed to clean the Data Are:
+    -I Highlight all the Data and click the Data tab, and then the Data Tool group click on it ,you will see a dialogue box. Click Unselect all fisrt, then product _id and then cick ok. you will have your unique or distinct product. The next step is to get the category which is key in all. To execute this, i had to copy and paste the category to a new worksheet to split it because it is a multi-level category and i observed that there is a common delimiter that seperated the text so i clicked on the delimiter and copy it to the clipboard. So i highlighted the category column and click text to columns to open a dialogue box and i clicked next and pasted the delimiter into the other box and click finish. by doing that, you have your category now spread across 5 columns, next is to rename them.  After doing that, i returned back to the main data set and and highlight columns that will accomodate four more category headers and then clicked insert which created a space for me and so i copied the four columns from the category split sheet and pasted it on the main data set and so i deleted the category split sheet
 
 ### Exploratory Data Analysis
 EDA involved in the exploring of the data to answer some questions about the Data such as;
