@@ -1,4 +1,4 @@
-# DSA-Documentation
+# DSA-Data Analysis Capstone Project
 
 ### This is how i started my portfolio building while taking my Data Analysis class with the incubator hub
 
@@ -10,16 +10,14 @@
  ### the Data Analysis project aims to generate insight into the product performance and customer review for E-commerce analytic solutions that can guide product improvement, marketing strategies, and customer engagement. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
  
 ### Data Sources
-The primary sources of Data used here is Data Amazon case study.xlsx and this is an open source data that can be freely downloadedfrom an open source online such as kaggle or FRED or any other data repository site.
+The primary sources of Data used here is Data Amazon case study.xlsx and this downloaded from my dashboard on Canvas LMS
 
 ### Tools used
 - Ms Excel for Data Cleaning  [Download Here](https://www.microsoft.com)
     - For Data Collection
     - For Data Cleaning
        1. Data Manipulation
-       2. Data Munching
-          
-- QL Server ( For querrying and analysis)
+         
 - Power Bi [Download]([For creating a report](https://www.microsoft.com/en-us/download/details.aspx?id=58494))
 - Ms power point ( for presentation)
   
