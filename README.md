@@ -65,127 +65,141 @@ Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash 
 ### My Analysis
 
  1. Average discount percentage by product category
- - i calculated average discounct by using the formular
-= (Actual Price - Discounted Price) / Actual Price * 100
-=₹1000.00-₹499.00/₹1000.00*100= 50%
-Then i used a Pivot Table to summarise the data by Average
+   - i calculated average discounct by using the formular
+   = (Actual Price - Discounted Price) / Actual Price * 100
+   =₹1000.00-₹499.00/₹1000.00*100= 50%
+   Then i used a Pivot Table to summarise the data by Average
 
-Rows: Category= 630.72
+   Rows: Category= 630.72
 
-Values: Discount % → summarize by Average =0.47
+   Values: Discount % → summarize by Average =0.47
 
 2. How many products are listed under each category, I used 
-Pivot Table to determine the amount
+    Pivot Table to determine the amount
 
-Rows: Category
+    Rows: Category
 
-Values: Product Name → set to Count (Distinct) and it returned 1,351.00
+    Values: Product Name → set to Count (Distinct) and it returned 1,351.00
 
  3. Total number of reviews per category
- I used Rating Count column to determine the out come and summarised using 
+   I used Rating Count column to determine the out come and summarised using 
 
-Pivot Table:
+   Pivot Table:
 
-Rows: Category
+   Rows: Category
 
-Values: Rating Count → Sum
+   Values: Rating Count → Sum
 
 4. Which products have the highest average ratings
-I Sorted my dataset by the Average Rating column (descending)
+   I Sorted my dataset by the Average Rating column (descending)
 
-I Pick top entries as
--Electronics=1998.1,
--Home&Kitchen=1806.2 and
--Computers&Accesories=1557.7
+   I Pick top entries as
+  -Electronics=1998.1,
+  -Home&Kitchen=1806.2 and
+  -Computers&Accesories=1557.7
 
 5. Average actual price vs discounted price by category
-I used Pivot Table :
+    I used Pivot Table :
 
-Rows: Category
+    Rows: Category
 
-Values: Actual Price → Average =5691.2
-Discounted Price → Average =3305
+    Values: Actual Price → Average =5691.2
+   Discounted Price → Average =3305
 
  6. Which products have the highest number of reviews
-Sort Rating Count column in descending order
-  - Electronic has the highest
+   Sort Rating Count column in descending order
+   - Electronic has the highest
 
  7.How many products have a discount of 50% or more
-I Added calculated column and used the formular
-=IF(Discount % >= 50, "Yes", "No") 
-and then i used Filter to determine my answer
-and i arrived at 662 products have a discount of 50% or more
+  I Added calculated column and used the formular
+  =IF(Discount % >= 50, "Yes", "No") 
+  and then i used Filter to determine my answer
+   and i arrived at 662 products have a discount of 50% or more
 
- 8. Distribution of product ratings
-Pivot Table:
+ 8. Distribution of product rating
+    - I used Pivot Table:
 
-Rows: Rating (rounded if needed)
+    Rows: Rating 
 
-Values: Product Name → Count. 
+   Values: Product Name → Count. 
 
 9. Total potential revenue by category (Actual Price × Rating Count)
-Add calculated column:
-=Actual Price * Rating Count
+   - I Added a calculated column and multiply the Actual price by Rating count as seen
+   =Actual Price * Rating Count
+   =₹1000*₹23 = ₹23,000
 
-Pivot Table:
+    and i used Pivot Table tosummerise the values
 
-Rows: Category
+    Rows: Category
 
-Values: Potential Revenue → Sum
+    Values: Potential Revenue → Sum
 
 
 10. Number of unique products per price range bucket
-Create new column Price Bucket:
-
-Excel formular=IF(Discounted Price < 200, "<₹200",
-   IF(Discounted Price <= 500, "₹200–₹500", ">₹500")) (they should take note of the symbol for some systems)
-Pivot Table:
+   Create new column Price Bucket:
+   Excel formular=IF(Discounted Price < 200, "<₹200",
+   IF(Discounted Price <= 500, "₹200–₹500", ">₹500")) 
+  - i used Pivot Table:
 
 Rows: Price Bucket
 
 Values: Product Name → Count
+and i got this
+₹200 - ₹500
+<₹200
+>₹500
+  
 
  11. How does the rating relate to the level of discount
 
 X-axis: Discount %
-
-Y-axis: Average Rating. i used Line Chart (Grouped by Discount Ranges) becausei couldnt get it to display the scattered chart.
+Y-axis: Average Rating. i used Line Chart
+(Grouped by Discount Ranges)
 Steps:
 
-I Created a new column that groups Discount % into buckets like:
+  I Created a new column that groups Discount % into buckets like:
 
-0–10%, 11–20%, ..., 91–100%
+  0–10%, 11–20%, ..., 91–100%
 
-excel formular=IF([@Discount%]<=10, "0-10%",
+  and i used excel formular=IF([@Discount%]<=10%, "0-10%",
   IF([@Discount%]<=20, "11-20%",
-  IF([@Discount%]<=30, "21-30%", ...)))
-Use a Pivot Table:
+  IF([@Discount%]<=30, "21-30%", ...))) to get my values
 
-Rows: Discount Bucket
+  =IF([@[discount_percentage]]<=10%,"0-10%",IF([@[discount_percentage]]<=20%,"11-20%",IF([@[discount_percentage]]<=30%,"21-30%",IF([@[discount_percentage]]<=40%,"31-40%",IF([@[discount_percentage]]<=50%,"41-50%",IF([@[discount_percentage]]<=60%,"51-60%",IF([@[discount_percentage]]<=70%,"61-70%",IF([@[discount_percentage]]<=80%,"71-  80%",IF([@[discount_percentage]]<=90%,"81-90%","91-100%")))))))))
+    and i click enter to get my value and flash fill to fill in and i used a 
+    Pivot Table:
 
-Values: Average Rating → summarize as Average
+    Rows: Discount Bucket
 
-Insert a line chart to show trend of average rating across discount buckets
+    Values: Average Rating → summarize as Average
+
+    I Insert a line chart to show trend of average rating across discount buckets
 
  12. How many products have fewer than 1,000 reviews
-Filter Rating Count < 1000
-Use COUNT or check the status bar, count is there.
+    I used Filter to acheive my result Rating Count < 1000
+    product with <1000 reviews is = 310
+
 
  13. Which categories have products with the highest discounts
-Use the earlier Discount % column
+     I Use the earlier Discount % column to achieve this, and also 
+     Pivot Table:
 
-Pivot Table:
+    Rows: Category
 
-Rows: Category
+      Values: Discount % → Max
+      The product category with the highest discount is Electronics
 
-Values: Discount % → Max
-
-14. Top 5 products by rating + number of reviews combined
-Create calculated column:
-=Average Rating + (Rating Count / Scaling Factor)
-(Choose a factor like 1000 to balance weight)
+ 14. Top 5 products by rating + number of reviews combined
+    Create calculated column:
+    =Average Rating + (Rating Count / Scaling Factor)
+    (Choose a factor like 1000 to balance weight)
+    4.09 + 426,973/1000 = 431.06
 
 Sort descending and pick top 5.
+  -Amazone Basic Wireless mouse 
+  -Sync Wire LTG to USB cable
+  -REDTECH instant Electric water heater faucet tap
+  -Instant Pot Air fryer
  
 
 
