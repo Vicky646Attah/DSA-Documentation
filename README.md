@@ -73,12 +73,14 @@ Then use a Pivot Table:
 Rows: Category
 
 Values: Discount % → summarize by Average
+
 2. How many products are listed under each category
 Pivot Table:
 
 Rows: Category
 
 Values: Product Name → set to Count (Distinct)
+
  3. Total number of reviews per category
 Use Rating Count column
 
