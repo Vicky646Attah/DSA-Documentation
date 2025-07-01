@@ -65,24 +65,24 @@ Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash 
 ### My Analysis
 
  1. Average discount percentage by product category
-Add a calculated column:
+ - i calculated average discounct by using the formular
 = (Actual Price - Discounted Price) / Actual Price * 100
+=₹1000.00-₹499.00/₹1000.00*100= 50%
+Then i used a Pivot Table to summarise the data by Average
 
-Then use a Pivot Table:
+Rows: Category= 630.72
+
+Values: Discount % → summarize by Average =0.47
+
+2. How many products are listed under each category, I used 
+Pivot Table to determine the amount
 
 Rows: Category
 
-Values: Discount % → summarize by Average
-
-2. How many products are listed under each category
-Pivot Table:
-
-Rows: Category
-
-Values: Product Name → set to Count (Distinct)
+Values: Product Name → set to Count (Distinct) and it returned 1,351.00
 
  3. Total number of reviews per category
-Use Rating Count column
+ I used Rating Count column to determine the out come and summarised using 
 
 Pivot Table:
 
@@ -91,26 +91,30 @@ Rows: Category
 Values: Rating Count → Sum
 
 4. Which products have the highest average ratings
-Sort your dataset by the Average Rating column (descending)
+I Sorted my dataset by the Average Rating column (descending)
 
-Pick top entries
+I Pick top entries as
+-Electronics=1998.1,
+-Home&Kitchen=1806.2 and
+-Computers&Accesories=1557.7
 
 5. Average actual price vs discounted price by category
-Pivot Table:
+I used Pivot Table :
 
 Rows: Category
 
-Values: Actual Price → Average
-Discounted Price → Average
+Values: Actual Price → Average =5691.2
+Discounted Price → Average =3305
 
  6. Which products have the highest number of reviews
 Sort Rating Count column in descending order
+  - Electronic has the highest
 
  7.How many products have a discount of 50% or more
-Add calculated column:
-=IF(Discount % >= 50, "Yes", "No")
-
-Then use a COUNTIF
+I Added calculated column and used the formular
+=IF(Discount % >= 50, "Yes", "No") 
+and then i used Filter to determine my answer
+and i arrived at 662 products have a discount of 50% or more
 
  8. Distribution of product ratings
 Pivot Table:
