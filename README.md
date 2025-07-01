@@ -1,12 +1,12 @@
 # My Project
 ## Table of Contents
--[Project Topic](#project-topic)
+ -[Project Topic](#project-topic)
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning--preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Analysis](#analysis)
+- [My Analysis](#my-analysis)
 - [Results](#results)
 - [Conclusion](#conclusion)
   
@@ -33,7 +33,7 @@ The primary sources of Data used here is Data Amazon case study.xlsx file and th
 - Power Bi [Download]([For creating a report](https://www.microsoft.com/en-us/download/details.aspx?id=58494))
 - Ms power point ( for presentation)
   
-### Data Cleaning and preparation
+### Data Cleaning and Preparation
 In the initial phase of the Data cleaning and preparation, we perform the following 
 action;
 1. Data loading and Ispection
