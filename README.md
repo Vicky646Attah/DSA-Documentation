@@ -3,7 +3,7 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools used](#tools-used)
-- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Data Cleaning Preparation](#data-cleaning-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [My Analysis](#my-analysis)
 - [Results](#results)
