@@ -32,7 +32,7 @@ The primary sources of Data used here is Data Amazon case study.xlsx file and th
 - Power Bi [Download]([For creating a report](https://www.microsoft.com/en-us/download/details.aspx?id=58494))
 - Ms power point ( for presentation)
   
-### Data Cleaning and Preparation
+## Data Cleaning and Preparation
 In the initial phase of the Data cleaning and preparation, we perform the following 
 action;
 1. Data loading and Ispection
@@ -62,5 +62,5 @@ EDA involved in the exploring of the data to answer some questions about the Dat
 Using your cleaned dataset and pivot outputs, build an Excel dashboard. Unleash your Creativity 
 
 
-### Data Analysis
+### My Analysis
 
