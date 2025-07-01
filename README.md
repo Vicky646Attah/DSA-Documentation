@@ -1,3 +1,12 @@
+# My Project
+## Table of Contents
+- [Overview](#overview)
+- [Data Source](#data-source)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Analysis](#analysis)
+- [Results](#results)
+- [Conclusion](#conclusion)
+  
 # DSA-Data Analysis Capstone Project
 
 ### This is how i started my portfolio building while taking my Data Analysis class with the incubator hub
