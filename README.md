@@ -1,7 +1,10 @@
 # My Project
 ## Table of Contents
-- [Overview](#overview)
-- [Data Source](#data-source)
+-[Project Topic](#project-topic)
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools used](#tools-used)
+- [Data Cleaning and Preparation](#data-cleaning--preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Analysis](#analysis)
 - [Results](#results)
