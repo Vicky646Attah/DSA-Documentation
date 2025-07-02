@@ -209,3 +209,11 @@ Sort descending and pick top 5.
 
 
 [Amazon.case.study.VICTORIA.PROJECT.1 (1).xlsx](https://github.com/user-attachments/files/21013585/Amazon.case.study.VICTORIA.PROJECT.1.1.xlsx)
+
+Based on the analysis of product prices , Electronics have the highest average discount and the largest product count, making them a great category for volume -based promotions
+
+
+### Limitation
+
+-Lack of Unique Identifiers: Product names were not fully visible, which may        cause grouping issues in pivot table.
+-No Date/Time Stamp: Cannot analyze seasonal or time-based trends without atime stamp column
