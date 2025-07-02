@@ -8,17 +8,24 @@
 - [My Analysis](#my-analysis)
 - [Results](#results)
 - [Conclusion](#conclusion)
-  
+- [Palmora Case Study 3](#palmora-case-study-3)
+- [Data Cleanng Preparation 2](data-cleaning-preparation-2)
+- [Exploratory Data Analysis 2](exploratory-data-analysis-2)
+- [My Data Analysis 2](my-data-analysis-2)
+- [Results](results)
+- [Recommendation](recommendation)
+- [Conclusion](conclusion)
+
+
 # DSA-Data Analysis Capstone Project
 
 ### This is how i started my portfolio building while taking my Data Analysis class with the incubator hub
 
-### At the incubators hub, i had the opportunity of learning a number of things ranging from Ms Excel to SQl to my portfolio building and now to my power Bi
+### At the incubators hub, i had the opportunity of learning a number of things ranging from Ms Excel to SQl to my portfolio building and now to my power Bi and now to my project
 
- ##  Project Topic: Amazone Product Review Analysis
-
+ ## PROJECT TOPICS - Case study 1 Amazon Product Review Analysis,and Case study 3 Palmora Group HR Analysis
  ##  Project Overview
- ### the Data Analysis project aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
+ ### the Data Analysis project on Amazone aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. And the Palmora Group HR Analysis aims to generate insight on issues bothering on gender ineqaulity and pay gap in its three regions. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data, and offer recommendation based on outcome of the analysis.
  
 ### Data Sources
 The primary sources of Data used here is Data Amazon case study.xlsx file and this is downloaded from my dashboard on Canvas LMS
@@ -30,7 +37,6 @@ The primary sources of Data used here is Data Amazon case study.xlsx file and th
        1. Data Manipulation
          
 - Power Bi [Download]([For creating a report](https://www.microsoft.com/en-us/download/details.aspx?id=58494))
-- Ms power point ( for presentation)
   
 ### Data Cleaning Preparation
 In the initial phase of the Data cleaning and preparation, we perform the following 
@@ -38,8 +44,8 @@ action;
 1. Data loading and Ispection
 2. Handling missing variables
 3. Data Cleaning and formating
--Steps Followed to clean the Data Are:
-    -I Highlight all the Data and click the Data tab, and then the Data Tool group click on it ,you will see a dialogue box. Click Unselect all fisrt, then product _id and then cick ok. you will have your unique or distinct product. The next step is to get the category which is key in all. To execute this, i had to copy and paste the category to a new worksheet to split it because it is a multi-level category and i observed that there is a common delimiter that seperated the text so i clicked on the delimiter and copy it to the clipboard. So i highlighted the category column and click text to columns to open a dialogue box and i clicked next and pasted the delimiter into the other box and click finish. by doing that, you have your category now spread across 5 columns, next is to rename them.  After doing that, i returned back to the main data set and and highlight columns that will accomodate four more category headers and then clicked insert which created a space for me and so i copied the four columns from the category split sheet and pasted it on the main data set and so i deleted the category split sheet. The next thing i did was to confirm that all my columns are reliable, so i used filter tools to validate each column, and since i wasn't so sure about deleting incomplete record, i got them fixed by assigning a value. For instance, i assigned zero where there was blank record and and symbol . After doing all the cleaning, i proceeded to calculated columns.
+-Steps Followed to clean Amazone Product review Data Are:
+    -I Highlight all the Data and click the Data tab, and then the Data Tool group click on it ,you will see a dialogue box. Click Unselect all fisrt, then select product _id and then cick ok. you will have your unique or distinct product. The next step is to get the category which is key in all. To execute this, i had to copy and paste the category to a new worksheet to split it because it is a multi-level category and i observed that there is a common delimiter that seperated the text so i clicked on the delimiter and copy it to the clipboard. So i highlighted the category column and click text to columns to open a dialogue box and i clicked next and pasted the delimiter into the box and click finish. by doing that, you have your category now spread across 5 columns, next is to rename them.  After doing that, i returned back to the main data set and and highlight columns that will accomodate four more category headers and then clicked insert which created a space for me and so i copied the four columns from the category split sheet and pasted it on the main data set and so i deleted the category split sheet. The next thing i did was to confirm that all my columns data are reliable, so i used filter tools to validate each column, and since i wasn't so sure about deleting incomplete record, i got them fixed by assigning a value. For instance, i assigned zero where there was blank record and symbol . After doing all the cleaning, i proceeded to including calculated columns where appriopraite 
 
 ### Exploratory Data Analysis
 EDA involved in the exploring of the data to answer some questions about the Data such as;
@@ -210,10 +216,124 @@ Sort descending and pick top 5.
 
 [Amazon.case.study.VICTORIA.PROJECT.1 (1).xlsx](https://github.com/user-attachments/files/21013585/Amazon.case.study.VICTORIA.PROJECT.1.1.xlsx)
 
-Based on the analysis of product prices , Electronics have the highest average discount and the largest product count, making them a great category for volume -based promotions
+Based on the analysis of Amazon product  review analysis, Electronics have the highest average discount and the largest product count, making them a great category for volume -based promotions
 
 
 ### Limitation
 
 1.Lack of Unique Identifiers: Product names were not fully visible, which may cause grouping issues in pivot table.
-2.No Date/Time Stamp: Cannot analyze seasonal or time-based trends without  a time stamp column
+2.No Date/Time Stamp: Cannot analyze seasonal or time-based trends without  a time stamp column.
+
+##  CASE Study 3, Palmora Group HR Analysis
+
+### Data Cleaning Preparation 2
+At the initial phase of the data cleaning and preparation, we perform the following action.
+1. Data Loading and inspection
+2. Handling Missing Variables
+3. Data Cleaning and formating
+ Steps followed to clean Palmora Group HR data are:
+the data was loaded into the power bi, where it was transformed to the power query editor for cleaning.
+At first, i assigned a generic name NOT DISCLOSED that means to replace values, and i also went on to take out rows where employee has no salary. I also took out rows where department indicated NULL. I renamed the column for Location and changed it to Region, and i added a custom coulmn where i got the department_rating. I aslo loaded the bonus table and transformed it to get my bonus mapping and then i went on to select all the bonus and unpivote it and added a custom column to give me the department rating so
+it can be easy for me to merge the palmora data with the bonus data into a new merged data, to continue with the addition of columns, i expanded the bonus mapping to reveal the values and and added a custom column to get the Annual bonus, thereafter i rename the column to change it to Bonus rate and i also added another custom  column called the total salary and i added conditional column to get the salary band. i also assigned value 0 to columns that were blank. After that, i proceeded to my analysis.
+
+### Exploratory Data Analysis
+
+1.	What is the gender distribution in the organization? Distil to regions and departments 
+2.	Show insights on ratings based on gender 
+3.	Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management 
+4.	A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000 
+●	Does Palmoria meet this requirement? 
+●	Show the pay distribution of employees grouped by a band of $10,000. For example: 
+●	How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
+●	Also visualize this by regions 
+  
+Case Questions 
+5. Mr Gamma thought to himself that since you were already working on the employee data, you could help out with allocating the annual bonus pay to employees based on the performance rating. He handed you another data set that contains rules for making bonus payments and asked you to: 
+●	Calculate the amount to be paid as a bonus to individual employees 
+●	Calculate the total amount to be paid to individual employees (salary inclusive of bonus) 
+●	Total amount to be paid out per region and company-wide 
+  
+  
+ 
+My Analysis 2
+
+
+ Import the employee data into Power BI.
+Do a proper cleaning E.g
+1. Remove employees without salaries and departments indicated as "NULL".
+2. Assign a generic gender status to employees who refused to disclose their gender.
+
+1: Gender Distribution Analysis
+1. Create a bar chart:
+    - Axis: Region/Department
+    - Value: Count of Employees by Gender
+2. Use a slicer to filter by region/department.
+3. Visualize the overall gender distribution using a pie chart.
+
+Visualization: 
+- Bar chart: "Gender Distribution by Region"
+- Pie chart: "Overall Gender Distribution"
+
+Measures
+- `Gender Count = COUNT('Employee'[Gender])`
+- `Gender Percentage = DIVIDE(CALCULATE(COUNT('Employee'[Gender])), CALCULATE(COUNT('Employee'[Gender]), ALL('Employee'[Gender])))`
+ 2: Ratings Insights Based on Gender
+1. Create a histogram/box plot:
+    - Axis: Rating
+    - Value: Count of Employees by Gender
+2. Use a slicer to filter by gender.
+3. Calculate the average rating by gender using a measure.
+
+Visualization:
+- Histogram: "Ratings Distribution by Gender"
+- Box plot: "Ratings Comparison by Gender"
+
+Measures
+- `Average Rating by Gender = AVERAGE('Employee'[Rating])`
+- `Rating Count by Gender = COUNT('Employee'[Rating])`
+ 3: Salary Structure and Gender Pay Gap Analysis
+1. Create a scatter plot:
+    - X-axis: Salary
+    - Y-axis: Gender
+2. Calculate the average salary by gender using a measure.
+3. Identify departments and regions with significant pay gaps.
+
+Visualization:
+- Scatter plot: "Salary vs. Gender"
+- Bar chart: "Average Salary by Department and Region"
+
+Measures 
+- `Average Salary by Gender = AVERAGE('Employee'[Salary])`
+- `Salary Count by Department and Region = COUNT('Employee'[Salary])`
+ 4: Minimum Salary Requirement Analysis
+1. Create a histogram:
+    - Axis: Salary Band ($10,000 increments)
+    - Value: Count of Employees
+2. Use a slicer to filter by region.
+3. Calculate the number of employees below the minimum salary threshold.
+
+Visualization:
+- Histogram: "Salary Distribution by $10,000 Band"
+- Bar chart: "Employees Below Minimum Salary Threshold by Region"
+
+Measures
+- `Employees Below Minimum Salary = COUNTX(FILTER('Employee', 'Employee'[Salary] < 90000), 'Employee'[Salary])`
+-  5: Bonus Payment Calculation
+1. Create a measure to calculate the bonus amount based on performance ratings.
+2. Calculate the total amount to be paid to individual employees (salary + bonus).
+3. Create a bar chart to visualize the total amount to be paid out per region.
+
+Visualization:
+Bonus Payments
+- Bar chart: "Total Bonus Payout by Region"
+- Table: "Individual Employee Bonus Payments"
+
+Measures
+- `Bonus Amount = IF('Employee'[Rating] > 3, 'Employee'[Salary] * 0.1, 0)`
+- `Total Amount to be Paid = 'Employee'[Salary] + 'Bonus Amount'`
+
+
+
+
+
+
