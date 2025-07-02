@@ -18,7 +18,7 @@
  ##  Project Topic: Amazone Product Review Analysis
 
  ##  Project Overview
- ### the Data Analysis project aims to generate insight into the product performance and customer review for E-commerce analytic solutions that can guide product improvement, marketing strategies, and customer engagement. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
+ ### the Data Analysis project aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
  
 ### Data Sources
 The primary sources of Data used here is Data Amazon case study.xlsx file and this is downloaded from my dashboard on Canvas LMS
@@ -196,10 +196,15 @@ Steps:
     4.09 + 426,973/1000 = 431.06
 
 Sort descending and pick top 5.
-  -Amazone Basic Wireless mouse 
-  -Sync Wire LTG to USB cable
-  -REDTECH instant Electric water heater faucet tap
-  -Instant Pot Air fryer
+  1.Amazone Basic Wireless mouse 
+  2.Sync Wire LTG to USB cable
+  3.REDTECH USB-C to lightening cable
+  4.Swiffer Instant electric water heater faucet tap
+  5.Instant Pot Air fryer
+
+  ###Results
+
+  
  
 
 
