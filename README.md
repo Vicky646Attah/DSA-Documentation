@@ -202,9 +202,10 @@ Sort descending and pick top 5.
   4.Swiffer Instant electric water heater faucet tap
   5.Instant Pot Air fryer
 
+ 
   ###Results
 
-  
- 
+[Amazon case study VICTORIA PROJECT.xlsx](https://github.com/user-attachments/files/21011126/Amazon.case.study.VICTORIA.PROJECT.xlsx)
+
 
 
