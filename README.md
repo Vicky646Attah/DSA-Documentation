@@ -215,5 +215,5 @@ Based on the analysis of product prices , Electronics have the highest average d
 
 ### Limitation
 
--Lack of Unique Identifiers: Product names were not fully visible, which may        cause grouping issues in pivot table.
--No Date/Time Stamp: Cannot analyze seasonal or time-based trends without atime stamp column
+1.Lack of Unique Identifiers: Product names were not fully visible, which may cause grouping issues in pivot table.
+2.No Date/Time Stamp: Cannot analyze seasonal or time-based trends without  a time stamp column
