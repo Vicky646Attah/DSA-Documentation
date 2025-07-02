@@ -205,7 +205,7 @@ Sort descending and pick top 5.
  
   ###Results
 
-[Amazon case study VICTORIA PROJECT.xlsx](https://github.com/user-attachments/files/21011126/Amazon.case.study.VICTORIA.PROJECT.xlsx)
+
 
 
 
