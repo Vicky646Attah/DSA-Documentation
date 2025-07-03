@@ -20,7 +20,7 @@
  ### the Data Analysis project on Amazone aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. And the Palmora Group HR Analysis aims to generate insight on issues bothering on gender ineqaulity and pay gap in its three regions. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data, and offer recommendation based on outcome of the analysis.
  
 ### Data Sources
-The primary sources of Data used here is Data Amazon case study.xlsx file and Data Palmora group emp-data.csv file this is downloaded from my dashboard on Canvas LMS
+The primary sources of Data used here is Data Amazon case study.xlsx file, this is downloaded from my dashboard on Canvas LMS
 
 ### Tools used
 - Ms Excel for Data Cleaning  [Download Here](https://www.microsoft.com)
