@@ -8,14 +8,6 @@
 - [My Analysis](#my-analysis)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Palmora Case Study Three](#palmora-case-study-three)
-- [Data Cleanng Preparation Two](#data-cleaning-preparation-two)
-- [Exploratory Data Analysis Two](#exploratory-data-analysis-two)
-- [My Data Analysis Two](#my-data-analysis-two)
-- [Results two](#results-two)
-- [Recommendation](#recommendation)
-- [Conclusion](#conclusion)
-
 
 # DSA-Data Analysis Capstone Project
 
