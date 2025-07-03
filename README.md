@@ -1,4 +1,4 @@
-[Palmoria Group emp-data (2).csv](https://github.com/user-attachments/files/21036053/Palmoria.Group.emp-data.2.csv)# My Project
+# My Project
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -211,9 +211,6 @@ Sort descending and pick top 5.
  
   ### Results
 
-
-
-
 [Amazon.case.study.VICTORIA.PROJECT.1 (1).xlsx](https://github.com/user-attachments/files/21040336/Amazon.case.study.VICTORIA.PROJECT.1.1.xlsx)
 
 
@@ -282,6 +279,8 @@ Visualization:
 Measures
 - `Gender Count = COUNT('Employee'[Gender])`
 -  Gender Percentage = DIVIDE(CALCULATE(COUNT('Employee'[Gender])), CALCULATE(COUNT('Employee'[Gender]), ALL('Employee'[Gender])))`
+
+  
  2: Ratings Insights Based on Gender
 1. I Created a histogram and a matrix box plot:
     - Axis: Rating
@@ -296,6 +295,8 @@ Visualization:
 Measures
 - Average Rating by Gender = AVERAGE('Employee'[Rating])`
 - Rating Count by Gender = COUNT('Employee'[Rating])`
+
+  
  3: Salary Structure and Gender Pay Gap Analysis
 1. Create a scatter plot:
     - X-axis: Salary
@@ -310,6 +311,8 @@ Visualization:
 Measures 
 - `Average Salary by Gender = AVERAGE('Employee'[Salary])`
 - `Salary Count by Department and Region = COUNT('Employee'[Salary])`
+
+
  4: Minimum Salary Requirement Analysis
 1. Create a histogram:
     - Axis: Salary Band ($10,000 increments)
@@ -323,6 +326,8 @@ Visualization:
 
 Measures
 - `Employees Below Minimum Salary = COUNTX(FILTER('Employee', 'Employee'[Salary] < 90000), 'Employee'[Salary])`
+
+
 -  5: Bonus Payment Calculation
 1. Create a measure to calculate the bonus amount based on performance ratings.
 2. Calculate the total amount to be paid to individual employees (salary + bonus).
