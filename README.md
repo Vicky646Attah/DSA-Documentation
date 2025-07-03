@@ -338,6 +338,10 @@ Measures
 - `Total Amount to be Paid = 'Employee'[Salary] + 'Bonus Amount'`
 
   ## Results two
+![Project Case 3_1](https://github.com/user-attachments/assets/60fa9909-cbd0-42a4-8a58-73080f28552f)
+![Project Case 3_2](https://github.com/user-attachments/assets/d094a43d-6966-43ce-b2e0-f344ef18b0d1)
+![Project Case 3_3](https://github.com/user-attachments/assets/481cae84-2b2d-43eb-9a17-d36c5d35eb9b)
+![Project Case 3_4](https://github.com/user-attachments/assets/b33ea4a5-195c-475d-a2d5-576d9da10a27)
 
 
 
