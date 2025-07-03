@@ -11,13 +11,11 @@
 
 # DSA-Data Analysis Capstone Project
 
-### This is how i started my portfolio building while taking my Data Analysis class with the incubator hub
-
-### At the incubators hub, i had the opportunity of learning a number of things ranging from Ms Excel to SQl to my portfolio building to my power Bi and now to my project.
 
  ## PROJECT TOPICS - Case study 1 Amazon Product Review Analysis, and Case study 3 Palmora Group HR Analysis
+ 
  ##  Project Overview
- ### the Data Analysis project on Amazone aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. And the Palmora Group HR Analysis aims to generate insight on issues bothering on gender ineqaulity and pay gap in its three regions. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data, and offer recommendation based on outcome of the analysis.
+ ### the Data Analysis project on Amazone aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data, and offer recommendation based on outcome of the analysis.
  
 ### Data Sources
 The primary sources of Data used here is Data Amazon case study.xlsx file, this is downloaded from my dashboard on Canvas LMS
@@ -28,7 +26,7 @@ The primary sources of Data used here is Data Amazon case study.xlsx file, this 
     - For Data Cleaning
        1. Data Manipulation
          
-- Power Bi [Download]([For creating a report](https://www.microsoft.com/en-us/download/details.aspx?id=58494))
+
   
 ### Data Cleaning Preparation
 In the initial phase of the Data cleaning and preparation, we perform the following 
