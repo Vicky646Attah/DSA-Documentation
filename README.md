@@ -1,4 +1,4 @@
-# My Project
+[Palmoria Group emp-data (2).csv](https://github.com/user-attachments/files/21036053/Palmoria.Group.emp-data.2.csv)# My Project
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -29,7 +29,6 @@
  
 ### Data Sources
 The primary sources of Data used here is Data Amazon case study.xlsx file and Data Palmora group emp-data.csv file this is downloaded from my dashboard on Canvas LMS
-
 
 ### Tools used
 - Ms Excel for Data Cleaning  [Download Here](https://www.microsoft.com)
@@ -256,8 +255,7 @@ Case Questions
   
   
  
-My Analysis 2
-
+My Analysis Two
 
 I Import the employee data into Power BI and 
 did a proper cleaning by
@@ -266,8 +264,8 @@ did a proper cleaning by
 2. Remove employees without salaries and departments indicate as "NULL".
 
 first of all i got the employee count using cards on the visual and then
-i went on to get the total salary by copying and pasting the employee count and and
-summerizing by count and then i got the average salary and Max and Min salary using the same approach.
+i went on to get the total salary by copying and pasting the employee and and
+summerizing by count and then i got the average salary Max salary and Min salary using the same approach.
 
 1. For Gender Distribution Analysis
 1. I used a bar chart:
@@ -339,6 +337,7 @@ Measures
 - `Total Amount to be Paid = 'Employee'[Salary] + 'Bonus Amount'`
 
   ## Results two
+  SNAP SHOTS OF POWER BI PROJECT
 ![Project Case 3_1](https://github.com/user-attachments/assets/60fa9909-cbd0-42a4-8a58-73080f28552f)
 ![Project Case 3_2](https://github.com/user-attachments/assets/d094a43d-6966-43ce-b2e0-f344ef18b0d1)
 ![Project Case 3_3](https://github.com/user-attachments/assets/481cae84-2b2d-43eb-9a17-d36c5d35eb9b)
