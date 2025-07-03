@@ -21,14 +21,15 @@
 
 ### This is how i started my portfolio building while taking my Data Analysis class with the incubator hub
 
-### At the incubators hub, i had the opportunity of learning a number of things ranging from Ms Excel to SQl to my portfolio building and now to my power Bi and now to my project
+### At the incubators hub, i had the opportunity of learning a number of things ranging from Ms Excel to SQl to my portfolio building to my power Bi and now to my project.
 
- ## PROJECT TOPICS - Case study 1 Amazon Product Review Analysis,and Case study 3 Palmora Group HR Analysis
+ ## PROJECT TOPICS - Case study 1 Amazon Product Review Analysis, and Case study 3 Palmora Group HR Analysis
  ##  Project Overview
  ### the Data Analysis project on Amazone aims to generate insight into the product pricing, discounts, ratings and customer review using Excel Pivot Tables, marketing strategies. And the Palmora Group HR Analysis aims to generate insight on issues bothering on gender ineqaulity and pay gap in its three regions. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which then enables us to tell compelling stories around our data from the insight gotten and to know the best performance from our data, and offer recommendation based on outcome of the analysis.
  
 ### Data Sources
-The primary sources of Data used here is Data Amazon case study.xlsx file and this is downloaded from my dashboard on Canvas LMS
+The primary sources of Data used here is Data Amazon case study.xlsx file and Data Palmora group emp-data.csv file this is downloaded from my dashboard on Canvas LMS
+
 
 ### Tools used
 - Ms Excel for Data Cleaning  [Download Here](https://www.microsoft.com)
