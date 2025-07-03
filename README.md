@@ -8,11 +8,11 @@
 - [My Analysis](#my-analysis)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Palmora Case Study 3](#palmora-case-study-3)
-- [Data Cleanng Preparation 2](data-cleaning-preparation-2)
-- [Exploratory Data Analysis 2](exploratory-data-analysis-2)
-- [My Data Analysis 2](my-data-analysis-2)
-- [Results](results)
+- [Palmora Case Study Three](#palmora-case-study-three)
+- [Data Cleanng Preparation Two](data-cleaning-preparation-two)
+- [Exploratory Data Analysis Two](exploratory-data-analysis-two)
+- [My Data Analysis Two](my-data-analysis-two)
+- [Results two](results -two)
 - [Recommendation](recommendation)
 - [Conclusion](conclusion)
 
@@ -258,17 +258,22 @@ Case Questions
 My Analysis 2
 
 
- Import the employee data into Power BI.
-Do a proper cleaning E.g
-1. Remove employees without salaries and departments indicated as "NULL".
-2. Assign a generic gender status to employees who refused to disclose their gender.
+I Import the employee data into Power BI and 
+did a proper cleaning by
 
-1: Gender Distribution Analysis
-1. Create a bar chart:
+1. Assign a generic gender status to employees who refused to disclose their gender.
+2. Remove employees without salaries and departments indicate as "NULL".
+
+first of all i got the employee count using cards on the visual and then
+i went on to get the total salary by copying and pasting the employee count and and
+summerizing by count and then i got the average salary and Max and Min salary using the same approach.
+
+1. For Gender Distribution Analysis
+1. I used a bar chart:
     - Axis: Region/Department
     - Value: Count of Employees by Gender
-2. Use a slicer to filter by region/department.
-3. Visualize the overall gender distribution using a pie chart.
+2.And then i Used a slicer to filter by region/department.
+3.  I Visualize the overall gender distribution using a pie chart.
 
 Visualization: 
 - Bar chart: "Gender Distribution by Region"
@@ -276,21 +281,21 @@ Visualization:
 
 Measures
 - `Gender Count = COUNT('Employee'[Gender])`
-- `Gender Percentage = DIVIDE(CALCULATE(COUNT('Employee'[Gender])), CALCULATE(COUNT('Employee'[Gender]), ALL('Employee'[Gender])))`
+-  Gender Percentage = DIVIDE(CALCULATE(COUNT('Employee'[Gender])), CALCULATE(COUNT('Employee'[Gender]), ALL('Employee'[Gender])))`
  2: Ratings Insights Based on Gender
-1. Create a histogram/box plot:
+1. I Created a histogram and a matrix box plot:
     - Axis: Rating
     - Value: Count of Employees by Gender
-2. Use a slicer to filter by gender.
-3. Calculate the average rating by gender using a measure.
+   2. And i used slicer to filter by Gender
+   3.I Calculated the average rating by gender using a measure.
 
 Visualization:
 - Histogram: "Ratings Distribution by Gender"
 - Box plot: "Ratings Comparison by Gender"
 
 Measures
-- `Average Rating by Gender = AVERAGE('Employee'[Rating])`
-- `Rating Count by Gender = COUNT('Employee'[Rating])`
+- Average Rating by Gender = AVERAGE('Employee'[Rating])`
+- Rating Count by Gender = COUNT('Employee'[Rating])`
  3: Salary Structure and Gender Pay Gap Analysis
 1. Create a scatter plot:
     - X-axis: Salary
@@ -331,6 +336,8 @@ Bonus Payments
 Measures
 - `Bonus Amount = IF('Employee'[Rating] > 3, 'Employee'[Salary] * 0.1, 0)`
 - `Total Amount to be Paid = 'Employee'[Salary] + 'Bonus Amount'`
+
+  ## Results two
 
 
 
