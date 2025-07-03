@@ -214,7 +214,8 @@ Sort descending and pick top 5.
 
 
 
-[Amazon.case.study.VICTORIA.PROJECT.1 (1).xlsx](https://github.com/user-attachments/files/21013585/Amazon.case.study.VICTORIA.PROJECT.1.1.xlsx)
+[Amazon.case.study.VICTORIA.PROJECT.1 (1).xlsx](https://github.com/user-attachments/files/21040336/Amazon.case.study.VICTORIA.PROJECT.1.1.xlsx)
+
 
 Based on the analysis of Amazon product  review analysis, Electronics have the highest average discount and the largest product count, making them a great category for volume -based promotions
 
