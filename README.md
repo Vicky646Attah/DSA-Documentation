@@ -7,6 +7,8 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [My Analysis](#my-analysis)
 - [Results](#results)
+- [Limitation](#limitation)
+- [Recommendation](#recommendation)
 - [Conclusion](#conclusion)
 
 # DSA-Data Analysis Capstone Project
@@ -204,11 +206,66 @@ Sort descending and pick top 5.
 [Amazon.case.study.VICTORIA.PROJECT.1 (1).xlsx](https://github.com/user-attachments/files/21040336/Amazon.case.study.VICTORIA.PROJECT.1.1.xlsx)
 
 
-Based on the analysis of Amazon product  review analysis, Electronics have the highest average discount and the largest product count, making them a great category for volume -based promotions
+1. Based on the analysis of Amazon product  review, "Homes Improvement is the product that has  the highest average discount of 123.16%, followed by computer accessories 114.01% making them a great category for volume -based promotions. However, the product wit the lowest average discount is Toys and games with 0.00% discunt
+  
+2.Electronics has the highest product in the category 490 followed by Homes and  kitchen 448, the list products in the categories are Toys and Games, cars and motorbikes, health and personal care 1.
+
+3.Electronics has the highest number of reviews by categories 14,208,406, followed by computers and accessories 6,335,177 making them the top rated and customers favourite. while cars and Motors have the list reviews 1118, making them the list customers favourite.
+
+4. The product with the highest average rating is Electronics with 1998.1 ratings  followed by home and kitchen with 1806.2 while the product with least average rating is cars and motobikes that rated 3.8
+
+5. The average actual price for electronic is higher followed by the average actual price for Home and Kitchen, while the average discounted price for Electronics is highest follwed by the average discounted price for Cars and Motor bikes, this is to say that the average discounted price of Cars and Motorbikes is more higher followed by that of Home and Kitchen.
+
+6. Electronic has the highest number of reviews owing to the fact that it is the highest product in the category.
+
+7. 662 products has a discount of 50% or More
+
+8. The distribution of Product Ratings shows that product that is rated
+   4.1 appears to be reviewed 225 times
+   4.3 appeares to be reviewed 209 times
+   4.2 appeares to be reviewed 207 times
+    4  appeares to be reviewed 159 times
+   4.4 appeares to be reviewed 114 times
+   3.9 appeares to be reviewed 114 times
+
+9. Electronics has the highest potential revenue of 5,104,861  followed by Homes and Kitchen with 1,864,609, hence the need for for chanelling more resources in its promotion. 
 
 
+10.the number of unique product by price range bucket
+ Prices >500 has 850 products
+ prices <200 has 159
+ prices 200-500 has 342
+
+
+11. Product that are rated high, most times have high discount, except for cars and motorbikes with high discount but low rating.
+
+12. 310 product has fewer reviews <1000
+
+13. Electronics
+
+14. Top 5 products in terms of rating and number of reviews
+
+   a. Syncwire LTG to USB cable
+   b. Instant Airfryer
+   c.Amazone basic Wireless Mouse
+   d. Office Product
+   e.Musical Instrument
+
+   
 ### Limitation
 
 1.Lack of Unique Identifiers: Product names were not fully visible, which may cause grouping issues in pivot table.
 2.No Date/Time Stamp: Cannot analyze seasonal or time-based trends without  a time stamp column.
 
+## Recommendation
+
+1. Promote Top-Rated products More Agressively: use them in marketing campeign and home page recommendations.
+2. Incorperate more customers feedback and reviews: More reviews can make new customers trust the product.
+3. Optimize Discount range for better conversion.
+
+## Conclusion
+
+This analysis provides valuable insight into product pricing, discount patterns, customer engagement, and category performance. the data reveals that
+1. Electronics stands out as the most discounted and widely listed category, offering more opportunity for volume-driven promotions.
+2. products with higher ratings should be leveraged as marketing assets to boost customers trust and conversion
+3. customers engagement through reviews remains critical and should be encouraged across all categories.
